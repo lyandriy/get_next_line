@@ -13,7 +13,6 @@ The `get_next_line` function allows you to read a file line by line. Each time t
 - **Language**: The project is implemented in C.
 - **Main Function**:
   - `char *get_next_line(int fd)`: Reads the next line from the file descriptor `fd` and returns it as a string. If there are no more lines to read, it returns `NULL`.
-- **Helper Functions**: Various utility functions to manage buffers, memory allocation, and string operations.
 - **Headers**:
   - `#include <stdlib.h>`: Used for dynamic memory allocation.
   - `#include <unistd.h>`: Used for the `read` function.
